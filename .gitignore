@@ -58,7 +58,6 @@ Thumbs.db
 wp-content/*
 !wp-content/mu-plugins/
 !wp-content/ai1wm-backups/
-!wp-content/plugins/
 !wp-content/themes/
 !wp-content/uploads/
 
