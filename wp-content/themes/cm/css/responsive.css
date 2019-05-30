@@ -1,0 +1,177 @@
+/* media */
+@media screen and (max-height: 890px) {
+    .mfp-close-btn-in .mfp-close {
+        position: absolute;
+    }
+}
+@media screen and (max-width: 1200px){
+    #genesis-nav-primary{
+        padding-top: 13px;
+    }
+    .site-header .title-area{
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .content-inst div[class*='col-'] {
+        height: 33vw;
+    }
+    .c-testimonials {
+        height: 245px;
+    }
+}
+@media screen and (max-width: 782px){
+    .admin-bar .sfm-navicon-button {
+        top: 96px !important;
+    }
+    .admin-bar .sfm-navicon-button.stiky {
+        top: 13px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .sec-about .block-image {
+        margin-top: 50px;
+    }
+    .sec-store >.container {
+        max-width: calc(100% - 30px);
+    }
+    .sec-store .title-prod h5 {
+        margin-bottom: 20px;
+    }
+    .sec-home-steps img {
+        margin-top: 30px;
+    }
+    .sec-vent {
+        padding-bottom: 40px;
+    }
+    .sec-event h2 {
+        margin-top: 25px;
+    }
+    .hero-bio .float-bkg-gradient {
+        position: static;
+        max-width: 100%;
+        right: auto;
+        top: auto;
+    }
+    .hero-bio .float-bkg-gradient img {
+        height: auto;
+        object-fit: cover;
+    }
+    .float-bkg-gradient .bkg-top-left,
+    .float-bkg-gradient .bkg-top-right,
+    .float-bkg-gradient .bkg-bottom-left,
+    .float-bkg-gradient .bkg-bottom-right {
+        display: none;
+    }
+    .transformation-popup {
+        padding: 0 15px;
+    }
+    .transformation-popup label {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .transformation-popup .wpcf7-form .mob-center {
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+    .contact-popup {
+        margin-top: 100px;
+    }
+    .contact-popup h2,
+    .transformation-popup h2 {
+        font-size: 25px;
+    }
+    .contact-popup label {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .contact-popup label,
+    .contact-popup p {
+        font-size: 16px;
+    }
+    .float-top {
+        position: relative;
+        margin-top: 0;
+    }
+    .c-heart {
+        transform: translateX(-50%) scale(.8);
+    }
+    .sec-results .card {
+        margin-bottom: 15px;
+    }
+    .content-inst div[class*='col-'] {
+        height: 50vw;
+    }
+    .content-inst .row div[class*='col-']:nth-last-child(2),
+    .content-inst .row div[class*='col-']:last-child {
+        display: none;
+    }
+    .banner-testimonial {
+        min-height: 450px;
+    }
+    .banner-testimonial .c-testimonials {
+        height: 250px;
+    }
+    .magnific-card .tl-mg-card {
+        margin-bottom: 10px;
+    }
+    .c-row>div[class*="_column"]:nth-child(1),
+    .c-row>div[class*="_column"]:nth-child(2) {
+        max-width: 100%;
+        float: none;
+    }
+    .sec-event {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 575px){
+    .sec-subscription .join-to-susbscribers {
+        margin-bottom: 25px;
+    }
+    .transformation-popup label {
+        font-size: 16px;
+        margin-bottom: 10px;
+        letter-spacing: -1px;
+    }
+    .pinned-map .map-content {
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+    .sec-map p {
+        white-space: initial;
+    }
+    ._form-content ._inline-style:nth-child(1),
+    ._form-content ._inline-style:nth-child(2),
+    ._form-content ._inline-style:nth-child(3) {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .caption .fa-instagram {
+        font-size: 20px;
+        margin: 0px 0 10px;
+    }
+    .content-inst .caption {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 550px){
+    .sec-youtube .container {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 480px){
+    div[data-file] #n_file {
+        display: block;
+    }
+}
+@media screen and (max-width: 341px){
+    .sfm-navicon-button {
+        top: 90px !important;
+    }
+}

@@ -1,0 +1,203 @@
+@media screen and (max-width: 1390px) {
+    .site-header {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 1550px) and (min-width: 1199px) {
+    .content-inst .caption {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .banner-testimonial {
+        min-height: 570px;
+    }
+    .banner-testimonial .main-video {
+        padding-top: 62px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h6 {
+        font-size: 18px !important;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .hero-great-body p {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .testimonial-item .testimonial-txt h4 {
+        text-align: left;
+    }
+    .c-pagination .page-numbers.next {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    /*button.dashicons-menu {
+        display: none !important;
+    }
+    .sfm-navicon-button {
+        display: block;
+    }*/
+    #genesis-nav-primary {
+        padding-top: 0px;
+    }
+    .menu-toggle {
+        font-size: 0;
+        padding: 9px 0;
+    }
+    .menu-toggle:focus {
+        outline: 0;
+    }
+    .menu-toggle::before {
+        width: 32px;
+        color: #fff;
+        font-size: 35px;
+        height: 32px;
+    }
+    .genesis-responsive-menu {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        z-index: 999;
+        background-color: rgba(71, 71, 71, .9);
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        left: 0;
+        padding: 0;
+        opacity: 0;
+    }
+    .genesis-responsive-menu .wrap {
+        padding: 0;
+    }
+    .genesis-responsive-menu .genesis-nav-menu {
+        background: rgba(0, 0, 0, .8);
+        max-width: 275px;
+        margin-left: auto;
+        height: 100vh;
+        padding-top: 60px;
+        -webkit-transition: all .35s ease-in-out;
+        -moz-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+        position: relative;
+        right: -100%;
+    }
+    .genesis-responsive-menu a {
+        font-family: inherit;
+        font-weight: normal;
+        font-size: 20px;
+        color: #aaaaaa;
+        padding: 15px 0 15px 28px;
+        text-transform: capitalize;
+    }
+    .genesis-responsive-menu a::after {
+        content: none;
+    }
+    .genesis-responsive-menu.on {
+        opacity: 1;
+    }
+    .genesis-responsive-menu.on .genesis-nav-menu {
+        right: 0;
+    }
+    .menu-toggle.activated {
+        position: fixed;
+        right: 15px;
+        top: 0;
+    }
+    .page-template-courses-template .sidebar.sidebar-primary {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-template-courses-template .sidebar.sidebar-primary::after {
+        content: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title-prod {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sec-map {
+        margin-bottom: 30px;
+    }
+    .sec-event .img-float-l {
+        bottom: -20px;
+    }
+    .con-left::after {
+        content: none;
+    }
+    .page-template-page-dashboard .box-right {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section-copyright .text-center,
+    .section-copyright .text-left,
+    .section-copyright .text-right {
+        text-align: center !important;
+    }
+    .section-copyright .text-center {
+        padding-top: 18px;
+        padding-bottom: 15px;
+    }
+    .content-time {
+        padding: 25px 10px 30px;
+    }
+    .c-time .count {
+        font-size: 40px;
+        padding: 12px 0 10px;
+    }
+    .c-time .count span {
+        font-size: 12px;
+    }
+    .c-time .count:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 507px) {
+    .group-item li h5 {
+        text-align: center;
+        line-height: 1.15;
+    }
+    .c-section .group-item {
+        margin-bottom: 40px;
+    }
+    .sec-event .img-float-l {
+        left: 0;
+        bottom: -14px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .sec-map p {
+        font-size: 18px;
+    }
+    .pinned-map {
+        margin-bottom: 57vw !important;
+    }
+}
